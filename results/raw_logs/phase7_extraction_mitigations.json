@@ -1,0 +1,381 @@
+{
+  "seed": 42,
+  "query_budgets": [
+    10,
+    20,
+    40,
+    80,
+    150,
+    300,
+    600,
+    1000
+  ],
+  "mitigation_results": {
+    "none": [
+      {
+        "budget": 10,
+        "mitigation": "none",
+        "spearman_fidelity": 0.9048374190414921,
+        "spearman_std": 0.014576477841386304,
+        "spearman_ci": [
+          0.876337538453833,
+          0.9278028028725426
+        ],
+        "top_k_agreement": 0.8556000000000001
+      },
+      {
+        "budget": 20,
+        "mitigation": "none",
+        "spearman_fidelity": 0.924763065184606,
+        "spearman_std": 0.009598925956615479,
+        "spearman_ci": [
+          0.9072434092704619,
+          0.9430723947195933
+        ],
+        "top_k_agreement": 0.9010999999999999
+      },
+      {
+        "budget": 40,
+        "mitigation": "none",
+        "spearman_fidelity": 0.9426875061427218,
+        "spearman_std": 0.01357985579805507,
+        "spearman_ci": [
+          0.9134732528839429,
+          0.9676029767027794
+        ],
+        "top_k_agreement": 0.9302000000000001
+      },
+      {
+        "budget": 80,
+        "mitigation": "none",
+        "spearman_fidelity": 0.961916010596531,
+        "spearman_std": 0.01426830456443848,
+        "spearman_ci": [
+          0.9382449878585685,
+          0.9866272550854217
+        ],
+        "top_k_agreement": 0.9648
+      },
+      {
+        "budget": 150,
+        "mitigation": "none",
+        "spearman_fidelity": 0.9771655378405664,
+        "spearman_std": 0.007781085911562011,
+        "spearman_ci": [
+          0.9646389903528336,
+          0.995692883881835
+        ],
+        "top_k_agreement": 0.9786000000000001
+      },
+      {
+        "budget": 300,
+        "mitigation": "none",
+        "spearman_fidelity": 0.9945428047258373,
+        "spearman_std": 0.0048891347237294824,
+        "spearman_ci": [
+          0.9804897321457895,
+          0.9990054855581778
+        ],
+        "top_k_agreement": 0.9974999999999999
+      },
+      {
+        "budget": 600,
+        "mitigation": "none",
+        "spearman_fidelity": 0.9978385831617178,
+        "spearman_std": 0.0014640685404970538,
+        "spearman_ci": [
+          0.9960867855085342,
+          0.9995276056401344
+        ],
+        "top_k_agreement": 1.0
+      },
+      {
+        "budget": 1000,
+        "mitigation": "none",
+        "spearman_fidelity": 0.9988595561297439,
+        "spearman_std": 0.0006360916314328181,
+        "spearman_ci": [
+          0.9974732265596199,
+          0.9990054855581778
+        ],
+        "top_k_agreement": 1.0
+      }
+    ],
+    "quantization": [
+      {
+        "budget": 10,
+        "mitigation": "quantization",
+        "spearman_fidelity": 0.910694152387026,
+        "spearman_std": 0.011313914833480036,
+        "spearman_ci": [
+          0.8875547190533125,
+          0.9286672100859638
+        ],
+        "top_k_agreement": 0.8791
+      },
+      {
+        "budget": 20,
+        "mitigation": "quantization",
+        "spearman_fidelity": 0.9222122597954403,
+        "spearman_std": 0.013467712604875367,
+        "spearman_ci": [
+          0.9015253152223142,
+          0.9451060481928747
+        ],
+        "top_k_agreement": 0.9099999999999999
+      },
+      {
+        "budget": 40,
+        "mitigation": "quantization",
+        "spearman_fidelity": 0.9444499675781932,
+        "spearman_std": 0.011012221740604799,
+        "spearman_ci": [
+          0.9256978163050518,
+          0.9640251705822938
+        ],
+        "top_k_agreement": 0.9299
+      },
+      {
+        "budget": 80,
+        "mitigation": "quantization",
+        "spearman_fidelity": 0.9609644448385554,
+        "spearman_std": 0.013365829005059938,
+        "spearman_ci": [
+          0.9385412090230417,
+          0.9816076219009211
+        ],
+        "top_k_agreement": 0.9580000000000002
+      },
+      {
+        "budget": 150,
+        "mitigation": "quantization",
+        "spearman_fidelity": 0.9742073449195123,
+        "spearman_std": 0.010371322920824483,
+        "spearman_ci": [
+          0.9589177941862477,
+          0.9971027356125446
+        ],
+        "top_k_agreement": 0.9710999999999999
+      },
+      {
+        "budget": 300,
+        "mitigation": "quantization",
+        "spearman_fidelity": 0.9935436083711162,
+        "spearman_std": 0.007857193032011212,
+        "spearman_ci": [
+          0.9736097184543304,
+          0.9990054855581778
+        ],
+        "top_k_agreement": 0.9956999999999999
+      },
+      {
+        "budget": 600,
+        "mitigation": "quantization",
+        "spearman_fidelity": 0.9981774609403011,
+        "spearman_std": 0.001241270072216411,
+        "spearman_ci": [
+          0.996086802112079,
+          0.9990054855581778
+        ],
+        "top_k_agreement": 1.0
+      },
+      {
+        "budget": 1000,
+        "mitigation": "quantization",
+        "spearman_fidelity": 0.9988595561297439,
+        "spearman_std": 0.0006360916314328181,
+        "spearman_ci": [
+          0.9974732265596199,
+          0.9990054855581778
+        ],
+        "top_k_agreement": 1.0
+      }
+    ],
+    "jitter": [
+      {
+        "budget": 10,
+        "mitigation": "jitter",
+        "spearman_fidelity": 0.8779357126527533,
+        "spearman_std": 0.0174898368992122,
+        "spearman_ci": [
+          0.8657229985296195,
+          0.919859818136484
+        ],
+        "top_k_agreement": 0.7699999999999999
+      },
+      {
+        "budget": 20,
+        "mitigation": "jitter",
+        "spearman_fidelity": 0.8695823975372612,
+        "spearman_std": 0.008386843417684635,
+        "spearman_ci": [
+          0.8660712912028301,
+          0.8941897782877409
+        ],
+        "top_k_agreement": 0.7168
+      },
+      {
+        "budget": 40,
+        "mitigation": "jitter",
+        "spearman_fidelity": 0.8662299662522264,
+        "spearman_std": 0.00032432502001477915,
+        "spearman_ci": [
+          0.8660430413234645,
+          0.8670734041333905
+        ],
+        "top_k_agreement": 0.7082999999999999
+      },
+      {
+        "budget": 80,
+        "mitigation": "jitter",
+        "spearman_fidelity": 0.8661017691720284,
+        "spearman_std": 2.7320231536586988e-05,
+        "spearman_ci": [
+          0.8660711373600835,
+          0.8661636605477053
+        ],
+        "top_k_agreement": 0.7064
+      },
+      {
+        "budget": 150,
+        "mitigation": "jitter",
+        "spearman_fidelity": 0.8661109373956632,
+        "spearman_std": 6.886326237598247e-05,
+        "spearman_ci": [
+          0.8660697783576019,
+          0.8662735044565282
+        ],
+        "top_k_agreement": 0.7051
+      },
+      {
+        "budget": 300,
+        "mitigation": "jitter",
+        "spearman_fidelity": 0.8660982045578487,
+        "spearman_std": 6.839786899036486e-06,
+        "spearman_ci": [
+          0.8660872952084665,
+          0.8661098018168286
+        ],
+        "top_k_agreement": 0.7079000000000001
+      },
+      {
+        "budget": 600,
+        "mitigation": "jitter",
+        "spearman_fidelity": 0.8661127569385924,
+        "spearman_std": 1.1729084136423706e-05,
+        "spearman_ci": [
+          0.8660874043640501,
+          0.8661276574135862
+        ],
+        "top_k_agreement": 0.7071
+      },
+      {
+        "budget": 1000,
+        "mitigation": "jitter",
+        "spearman_fidelity": 0.866120056656562,
+        "spearman_std": 1.016783723888973e-05,
+        "spearman_ci": [
+          0.8661057357013766,
+          0.866137630445051
+        ],
+        "top_k_agreement": 0.7065999999999999
+      }
+    ],
+    "delay": [
+      {
+        "budget": 10,
+        "mitigation": "delay",
+        "spearman_fidelity": 0.0,
+        "spearman_std": 0.0,
+        "spearman_ci": [
+          0.0,
+          0.0
+        ],
+        "top_k_agreement": 0.5
+      },
+      {
+        "budget": 20,
+        "mitigation": "delay",
+        "spearman_fidelity": 0.09890647565583321,
+        "spearman_std": 0.2772868805051353,
+        "spearman_ci": [
+          -0.29547608924972246,
+          0.7823153796406125
+        ],
+        "top_k_agreement": 0.5346
+      },
+      {
+        "budget": 40,
+        "mitigation": "delay",
+        "spearman_fidelity": 0.05840205485183133,
+        "spearman_std": 0.28286245274464367,
+        "spearman_ci": [
+          -0.4061740413533156,
+          0.6323695874921084
+        ],
+        "top_k_agreement": 0.5142
+      },
+      {
+        "budget": 80,
+        "mitigation": "delay",
+        "spearman_fidelity": 0.17119095910756574,
+        "spearman_std": 0.2052158146881845,
+        "spearman_ci": [
+          -0.1935752580088122,
+          0.5438377235432507
+        ],
+        "top_k_agreement": 0.5529000000000001
+      },
+      {
+        "budget": 150,
+        "mitigation": "delay",
+        "spearman_fidelity": 0.22190943864869409,
+        "spearman_std": 0.18086261227145195,
+        "spearman_ci": [
+          -0.06258324870538733,
+          0.5623993662543215
+        ],
+        "top_k_agreement": 0.5436000000000001
+      },
+      {
+        "budget": 300,
+        "mitigation": "delay",
+        "spearman_fidelity": 0.2023381622487837,
+        "spearman_std": 0.15752798170596652,
+        "spearman_ci": [
+          -0.05699619058594779,
+          0.5011241738530202
+        ],
+        "top_k_agreement": 0.5551999999999999
+      },
+      {
+        "budget": 600,
+        "mitigation": "delay",
+        "spearman_fidelity": 0.26947781659085285,
+        "spearman_std": 0.10478711409452125,
+        "spearman_ci": [
+          0.07204615760350336,
+          0.42354335918696895
+        ],
+        "top_k_agreement": 0.5834
+      },
+      {
+        "budget": 1000,
+        "mitigation": "delay",
+        "spearman_fidelity": 0.23101947136430834,
+        "spearman_std": 0.0961514327080775,
+        "spearman_ci": [
+          0.083676438675287,
+          0.42587807197644734
+        ],
+        "top_k_agreement": 0.5677
+      }
+    ]
+  },
+  "precision_penalties_mae": {
+    "none": 0.0,
+    "quantization": 1.0,
+    "jitter": 0.486,
+    "delay": 0.0
+  }
+}

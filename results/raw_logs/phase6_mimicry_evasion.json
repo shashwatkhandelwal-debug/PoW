@@ -1,0 +1,118 @@
+{
+  "seed": 42,
+  "peak_unconstrained_rate": 30.0,
+  "evasion_curve": [
+    {
+      "d_target": 2,
+      "optimal_theta": {
+        "rate": 5.264705882352941,
+        "jitter": 0.8555555555555555,
+        "endpoint_mix": 0.0,
+        "cover_error_rate": 0.02,
+        "header_entropy": 3.6
+      },
+      "achieved_malicious_throughput": 5.264617189037474,
+      "assigned_difficulty": 2,
+      "calibrated_prob": 0.001,
+      "evasion_cost_percent": 82.45127603654176
+    },
+    {
+      "d_target": 4,
+      "optimal_theta": {
+        "rate": 5.264705882352941,
+        "jitter": 0.8555555555555555,
+        "endpoint_mix": 0.0,
+        "cover_error_rate": 0.02,
+        "header_entropy": 3.6
+      },
+      "achieved_malicious_throughput": 5.264617189037474,
+      "assigned_difficulty": 2,
+      "calibrated_prob": 0.001,
+      "evasion_cost_percent": 82.45127603654176
+    },
+    {
+      "d_target": 6,
+      "optimal_theta": {
+        "rate": 5.264705882352941,
+        "jitter": 0.8555555555555555,
+        "endpoint_mix": 0.0,
+        "cover_error_rate": 0.02,
+        "header_entropy": 3.6
+      },
+      "achieved_malicious_throughput": 5.264617189037474,
+      "assigned_difficulty": 2,
+      "calibrated_prob": 0.001,
+      "evasion_cost_percent": 82.45127603654176
+    },
+    {
+      "d_target": 8,
+      "optimal_theta": {
+        "rate": 5.264705882352941,
+        "jitter": 0.8555555555555555,
+        "endpoint_mix": 0.0,
+        "cover_error_rate": 0.02,
+        "header_entropy": 3.6
+      },
+      "achieved_malicious_throughput": 5.264617189037474,
+      "assigned_difficulty": 2,
+      "calibrated_prob": 0.001,
+      "evasion_cost_percent": 82.45127603654176
+    },
+    {
+      "d_target": 10,
+      "optimal_theta": {
+        "rate": 5.264705882352941,
+        "jitter": 0.8555555555555555,
+        "endpoint_mix": 0.0,
+        "cover_error_rate": 0.02,
+        "header_entropy": 3.6
+      },
+      "achieved_malicious_throughput": 5.264617189037474,
+      "assigned_difficulty": 2,
+      "calibrated_prob": 0.001,
+      "evasion_cost_percent": 82.45127603654176
+    },
+    {
+      "d_target": 12,
+      "optimal_theta": {
+        "rate": 5.264705882352941,
+        "jitter": 0.8555555555555555,
+        "endpoint_mix": 0.0,
+        "cover_error_rate": 0.02,
+        "header_entropy": 3.6
+      },
+      "achieved_malicious_throughput": 5.264617189037474,
+      "assigned_difficulty": 2,
+      "calibrated_prob": 0.001,
+      "evasion_cost_percent": 82.45127603654176
+    },
+    {
+      "d_target": 14,
+      "optimal_theta": {
+        "rate": 5.264705882352941,
+        "jitter": 0.8555555555555555,
+        "endpoint_mix": 0.0,
+        "cover_error_rate": 0.02,
+        "header_entropy": 3.6
+      },
+      "achieved_malicious_throughput": 5.264617189037474,
+      "assigned_difficulty": 2,
+      "calibrated_prob": 0.001,
+      "evasion_cost_percent": 82.45127603654176
+    },
+    {
+      "d_target": 16,
+      "optimal_theta": {
+        "rate": 5.264705882352941,
+        "jitter": 0.8555555555555555,
+        "endpoint_mix": 0.0,
+        "cover_error_rate": 0.02,
+        "header_entropy": 3.6
+      },
+      "achieved_malicious_throughput": 5.264617189037474,
+      "assigned_difficulty": 2,
+      "calibrated_prob": 0.001,
+      "evasion_cost_percent": 82.45127603654176
+    }
+  ]
+}

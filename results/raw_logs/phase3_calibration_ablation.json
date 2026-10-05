@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "n_benign": 300,
+  "n_attack": 300,
+  "auc_in_distribution": 1.0,
+  "auc_cross_generator": 0.8375555555555556,
+  "generalization_gap": 0.1624444444444444,
+  "ece_uncalibrated": 0.20926819568104563,
+  "ece_isotonic": 0.0010000000000000005,
+  "ece_platt": 0.15235051841162522,
+  "ml_policy": {
+    "policy": "Calibrated ML Model",
+    "mean_difficulty_benign": 2.0,
+    "mean_difficulty_attack": 16.0,
+    "aca": 105.85760000000002,
+    "benign_lut_p50_ms": 0.012,
+    "benign_lut_p95_ms": 0.012,
+    "attacker_throughput_fraction": 0.00944665286195795
+  },
+  "random_policy": {
+    "policy": "Random Score U(0,1)",
+    "mean_difficulty_benign": 8.923333333333334,
+    "mean_difficulty_attack": 9.16,
+    "aca": 14.301226666666668,
+    "benign_lut_p50_ms": 1.536,
+    "benign_lut_p95_ms": 98.304,
+    "attacker_throughput_fraction": 0.06992407178125512
+  },
+  "static_diff8": {
+    "policy": "Static PoW (d=8)",
+    "mean_difficulty_benign": 8.0,
+    "mean_difficulty_attack": 8.0,
+    "aca": 1.4096000000000002,
+    "benign_lut_p50_ms": 0.768,
+    "benign_lut_p95_ms": 0.768,
+    "attacker_throughput_fraction": 0.7094211123723041
+  }
+}
